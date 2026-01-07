@@ -14,7 +14,7 @@ fun main() {
 
     val comment = input("Добавьте комментарий: \n").takeIf { it.isNotBlank() } ?: "без комментария"
 
-    println("\n=== Результат ===")
-    println("Ваша оценка: $ratingNumber")
-    println("Ваш комментарий: $comment")
+    println("\nСпасибо за Вашу оценку!")
+    println("Вы поставили: $ratingNumber")
+    println("Вы оставили комментарий: $comment")
 }
