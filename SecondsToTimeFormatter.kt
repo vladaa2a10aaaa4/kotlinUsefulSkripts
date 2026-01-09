@@ -6,7 +6,6 @@ object TimeConverter {
 
     @JvmStatic
     fun main() {
-        println("=== Конвертер секунд в формат времени ===")
         println("Введите количество секунд:")
 
         try {
