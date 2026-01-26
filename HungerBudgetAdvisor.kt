@@ -1,13 +1,9 @@
 fun main() {
     println("Сколько денег в вашем кармане?")
     val sum = readln().toInt()
-
     println("Вы голодны? (да/нет)")
-    val answer = readln().lowercase()  // Приводим к нижнему регистру
-
-    // Список возможных ответов "да"
+    val answer = readln().lowercase()
     val isHungry = answer in listOf("да", "yes", "true", "1", "голоден", "голодный")
-
     if (isHungry && sum > 500) {
         println("Купите пиццу")
     } else if (isHungry && sum <= 500) {
